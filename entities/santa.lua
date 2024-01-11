@@ -13,7 +13,7 @@ santa=entity:extend({
 	idle_offset={0,0},
 	run_sprite={66,68,70,64,72,74,76,64},
 	run_offset={1,2,0,0,1,2,0,0},
-	dead_sprite=105,
+	dead_sprite=96,
 
 	running=false,
 	jumping=true,
