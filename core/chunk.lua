@@ -73,10 +73,12 @@ chunk=class:extend({
 			repeat
 				d = rnd(def)
 			until d != def[1]
+			local cx = global.speed > 2 and rnd({16,32}) or d.celx
+			local cy = global.speed > 2 and 0 or d.cely
 			chunk({
 				sx = pool[#pool].sx+128,
-				celx=d.celx,
-				cely=d.cely,
+				celx=cx,--d.celx,
+				cely=cy,--d.cely,
 				coins=d.coins,
 				rnd_cb=d.rnd_cb,
 				gifts=d.gifts
