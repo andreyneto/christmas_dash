@@ -1,8 +1,8 @@
 snowball=entity:extend({
     x=64,
     y=64,
-    w=8,
-    h=8,
+    w=5,
+    h=5,
     st=0,
     sht=false,
     wrn=false,
